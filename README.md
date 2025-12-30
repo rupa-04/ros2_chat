@@ -23,10 +23,12 @@ ros2_chatはROS2のトピック通信を用いて、チャット風のメッセ�
 - Publisher：chat_talker
 - Subscriber：chat_listener
 
-## 動作環境
+## 必要なソフトウェア
 - Python
-- Ubuntu 24.04 LTS
 - ROS2
+
+## テスト環境
+- Ubuntu 24.04 LTS
 
 ## ライセンス
 - このソフトウェアは、3条項BSDライセンスの下、再頒布および使用が許可されます。
