@@ -18,11 +18,22 @@ ros2_chatはROS2のトピック通信を用いて、チャット風のメッセ�
 
 ## トピックの機能
 **/chat**
+- メッセージ型：std_msgs/msg/String
+- 通信内容：チャットメッセージ(文字列)
+- Publisher：chat_talker
+- Subscriber：chat_listener
+
+## 使用方法
+**ノードを個別に起動する場合**
+別々のターミナルで以下を実行します。
 ```
-メッセージ型：std_msgs/msg/String
-通信内容：チャットメッセージ(文字列)
-Publisher：chat_talker
-Subscriber：chat_listener
+$ ros2 run ros2_chat chat_listener
+$ ros2 run ros2_chat chat_talker
+```
+**launchファイルを使用する場合**
+PublisherとSubscriberを同時に起動することができます。
+```
+$ ros2 launch ros2_chat chat.launch.py
 ```
 
 ## 必要なソフトウェア
