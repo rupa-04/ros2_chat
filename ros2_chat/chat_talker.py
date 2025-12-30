@@ -10,9 +10,9 @@ class Chattalker(Node):
     def __init__(self):
         super().__init__('chat_talker')
         self.publisher_ = self.create_publisher(String, 'chat', 10)
-        self.username = input('Enter your name: ')
+        self.username = input('あなたの名前を入力してください: ')
 
-        self.get_logger().info("Type messages and press Enter to send.")
+        self.get_logger().info("メッセージを入力し、Enterキーを押すと送信されます。")
 
         while rclpy.ok():
             msg = String()
