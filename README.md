@@ -25,6 +25,7 @@ ros2_chatはROS2のトピック通信を用いて、チャット風のメッセ�
 
 ## 使用方法
 **ノードを個別に起動する場合**
+
 別々のターミナルで以下を実行します。
 ```
 $ ros2 run ros2_chat chat_listener
@@ -38,15 +39,16 @@ chat_talkerを起動すると以下の内容が表示されます。
 ```
 
 chat_listenerを起動すると以下の内容が表示されます。
-例：
-    - 名前:rupa-
-    - メッセージ：「こんにちは」と「元気ですか？」
+<dt>例：</dt>
+    <dd>名前:rupa-</dd>
+    <dd>メッセージ：「こんにちは」と「元気ですか？」</dd>
 ```
 [INFO][1767137033.415672377][chat_listener]: rupa-: こんにちは 
 [INFO][1767137051.812978855][chat_listener]: rupa-: 元気ですか？
 ```
 
 **launchファイルを使用する場合**
+
 PublisherとSubscriberを同時に起動することができます。
 ```
 $ ros2 launch ros2_chat chat.launch.py
