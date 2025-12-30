@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'chat_talker = ros2_chat.chat_talker:main',
+            'chat_listener = ros2_chat.chat_listener:main',
         ],
     },
 )
