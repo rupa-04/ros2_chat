@@ -30,6 +30,22 @@ ros2_chatはROS2のトピック通信を用いて、チャット風のメッセ�
 $ ros2 run ros2_chat chat_listener
 $ ros2 run ros2_chat chat_talker
 ```
+
+chat_talkerを起動すると以下の内容が表示されます。
+```
+あなたの名前を入力してください：
+[INFO][1767136966.470932434][chat_talker]: メッセージを入力し、Enterキーを押すと送信されます。
+```
+
+chat_listenerを起動すると以下の内容が表示されます。
+例：
+    - 名前:rupa-
+    - メッセージ：「こんにちは」と「元気ですか？」
+```
+[INFO][1767137033.415672377][chat_listener]: rupa-: こんにちは 
+[INFO][1767137051.812978855][chat_listener]: rupa-: 元気ですか？
+```
+
 **launchファイルを使用する場合**
 PublisherとSubscriberを同時に起動することができます。
 ```
