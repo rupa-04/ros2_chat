@@ -18,12 +18,12 @@ ros2_chatはROS2のトピック通信を用いて、チャット風のメッセ�
 
 ## トピックの機能
 **/chat**
-'''
+```
 メッセージ型：std_msgs/msg/String
 通信内容：チャットメッセージ(文字列)
 Publisher：chat_talker
 Subscriber：chat_listener
-'''
+```
 
 ## 必要なソフトウェア
 - Python
