@@ -32,7 +32,7 @@ $ ros2 run ros2_chat chat_listener
 $ ros2 run ros2_chat chat_talker
 ```
 
-chat_talkerを起動すると以下の内容が表示されます。
+chat_talkerを起動すると以下の内容が表示され、名前とメッセージの入力を求められます。
 ```
 あなたの名前を入力してください： rupa-
 [INFO][1767136966.470932434][chat_talker]: メッセージを入力し、Enterキーを押すと送信されます。
