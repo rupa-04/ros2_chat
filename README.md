@@ -24,7 +24,7 @@ ros2_chatはROS2のトピック通信を用いて、チャット風のメッセ�
 - Subscriber：chat_listener
 
 ## 使用方法
-**ビルド方法**
+- ビルド方法
 ```
 $ cd ~/ros2_ws/src
 $ git clone https://github.com/rupa-04/ros2_chat
@@ -33,7 +33,7 @@ $ colcon build
 $ source ~/.bashrc
 ```
 
-**ノードを個別に起動する場合**
+- ノードを個別に起動する場合
 
 別々のターミナルで以下を実行します。
 ```
@@ -55,7 +55,7 @@ chat_listenerを起動すると以下の内容が表示されます。
 [INFO][1767137051.812978855][chat_listener]: rupa-: 元気ですか？
 ```
 
-**launchファイルを使用する場合**
+- launchファイルを使用する場合
 
 PublisherとSubscriberを同時に起動することができます。
 ```
