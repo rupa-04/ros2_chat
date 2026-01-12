@@ -28,7 +28,11 @@ ros2_chatはROS2のトピック通信を用いて、チャット風のメッセ�
 
 別々のターミナルで以下を実行します。
 ```
+(ターミナル1)
 $ ros2 run ros2_chat chat_listener
+```
+```
+(ターミナル2)
 $ ros2 run ros2_chat chat_talker
 ```
 
