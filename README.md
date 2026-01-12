@@ -1,7 +1,7 @@
 # ros2_chat
 ![test](https://github.com/rupa-04/ros2_chat/actions/workflows/test.yml/badge.svg)
 
-ros2_chatはROS2のトピック通信を用いて、チャット風のメッセージ通信を行うROS2パッケージです。chat_talkerとchat_listenerの二つのノードを用いて、メッセージの送受信を行います。
+ros2_chatはROS2のトピック通信を用いて、チャット風のメッセージ通信を行うROS2パッケージです。chat_talkerのノードでメッセージの送信を行い、chat_listenerのノードでメッセージの受信を行います。
 
 ## ノードの機能
 **chat_talker**
